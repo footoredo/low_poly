@@ -2,7 +2,7 @@
 
 ##Usage
 
-  python low_poly.py raw\_pic a b [processed\_pic]
+	python low_poly.py raw\_pic a b [processed\_pic]
 
 Where `a` and `b` stands for parameters for the script. Specifically, `a` stands for `min_distance` used in generating Poisson sampling and `b` stands for the `factor` used for edge detecting.
 
@@ -18,7 +18,7 @@ Processed picture (`samples/processed/a.jpg`)
 
 Command line
 
-  python low_poly.py samples/raw/a.jpg 60 3 samples/processed/a.jpg
+	python low_poly.py samples/raw/a.jpg 60 3 samples/processed/a.jpg
 
 ---
 
@@ -32,7 +32,7 @@ Processed picture (`samples/processed/b.jpg`)
 
 Command line
 
-  python low_poly.py samples/raw/b.jpg 60 3.5 samples/processed/b.jpg
+	python low_poly.py samples/raw/b.jpg 60 3.5 samples/processed/b.jpg
 
 ---
 
@@ -46,7 +46,7 @@ Processed picture (`samples/processed/c.png`)
 
 Command line
 
-  python low_poly.py samples/raw/c.png 30 2 samples/processed/c.png
+	python low_poly.py samples/raw/c.png 30 2 samples/processed/c.png
 
 ---
 
@@ -60,6 +60,6 @@ Processed picture (`samples/processed/d.jpg`)
 
 Command line
 
-  python low_poly.py samples/raw/d.jpg 50 1 samples/processed/d.jpg
+	python low_poly.py samples/raw/d.jpg 50 1 samples/processed/d.jpg
 
 ---
