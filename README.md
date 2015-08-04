@@ -2,7 +2,7 @@
 
 ##Usage
 
-	python low_poly.py raw\_pic a b [processed\_pic]
+	python low_poly.py infile a b [outfile]
 
 Where `a` and `b` stands for parameters for the script. Specifically, `a` stands for `min_distance` used in generating Poisson sampling and `b` stands for the `factor` used for edge detecting.
 
